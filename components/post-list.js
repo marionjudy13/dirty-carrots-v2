@@ -4,9 +4,9 @@ import styles from '../styles/post-list.module.scss'
 export default function PostList({ posts }) {
   return (
     <section className={styles.container}>
-      <div className="content-wrap">
+      <div className={styles.wrapper}>
         <h3>Dem Carrots:</h3>
-        <ul>
+        <ul className={styles.listStyles}>
           {posts.map(({ id, title }) => (
             <li key={id}>
               {console.log(id)}
