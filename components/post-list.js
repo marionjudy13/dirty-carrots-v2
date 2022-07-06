@@ -9,7 +9,6 @@ export default function PostList({ posts }) {
         <ul className={styles.listStyles}>
           {posts.map(({ id, title }) => (
             <li key={id}>
-              {console.log(id)}
               <Link href={`/posts/${id}`}>{title}</Link>
             </li>
           ))}
