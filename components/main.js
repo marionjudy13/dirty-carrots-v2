@@ -3,8 +3,8 @@ import styles from '../styles/main.module.scss'
 export default function Main() {
   return (
     <main className={styles.container}>
-      <div className="main-content-wrap">
-        <div className="h1-logo-wrap">
+      <div className={styles.contentWrap}>
+        <div className={styles.carrotWrap}>
           <img
             src="/images/carrot-01.jpg" // Route of the image file
             alt="Awesome Carrot Illustration"

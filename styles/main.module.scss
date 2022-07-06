@@ -1,18 +1,17 @@
 .container {
     border-bottom: 2px solid var(--green);
     padding: 110px 40px 40px;
+}
 
-    .main-content-wrap {
-        display: block;
-        position: relative;
-        max-width: 400px;
-        margin: auto;
-    }
+.contentWrap {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: auto;
+}
 
-    .h1-logo-wrap {
-        margin-bottom: 20px;
-    }
-
+.carrotWrap {
+    margin-bottom: 20px;
     h1 {
         position: relative;
         font-size: 3.5em;
@@ -20,7 +19,7 @@
         z-index: 2;
         letter-spacing: 1px;
     }
-
+    
     img {
         position: relative;
         z-index: 1;
@@ -31,23 +30,26 @@
         transform: rotate(-35deg);
         top: -90px;
     }
+}
 
-    @media (min-width: 769px) {
+
+
+@media (min-width: 769px) {
+    .container {
         width: 60%;
         height: 90vh;
         display: flex;
         border-bottom: 2px solid var(--green);
         border-right: 2px solid var(--green);
         padding: 150px 100px 0;
+    }
 
-        .main-content-wrap {
-            max-width: 450px;
-        }
-
+    .contentWrap {
+        max-width: 450px;
         h1 {
             font-size: 5em;
         }
-
+    
         img {
             width: 125px;
             position: absolute;
@@ -55,22 +57,22 @@
             transform: rotate(-35deg);
             top: -160px;
         }
-
+    
         h2 {
             font-size: 2.15em;
         }
     }
 
-    @media (min-width: 1500px) {
-        .main-content-wrap {
-            max-width: 500px;
-        }
+}
 
+@media (min-width: 1500px) {
+    .contentWrap {
+        max-width: 500px;
         h1 {
             font-size: 8em;
             line-height: .7;
         }
-
+    
         img {
             width: 170px;
             position: absolute;
@@ -78,9 +80,10 @@
             transform: rotate(-35deg);
             top: -207px;
         }
-
+    
         h2 {
             font-size: 2.75em;
         }
     }
+
 }
