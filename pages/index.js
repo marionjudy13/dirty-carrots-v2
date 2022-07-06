@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import ContactBar from '../components/contact-bar'
+import Footer from '../components/footer'
 import Main from '../components/main'
 import styles from '../styles/home.module.scss'
 import { getSortedPostsData } from '../lib/posts'
@@ -26,7 +26,7 @@ export default function Home({ allPostsData }) {
       <div className={styles.wrapper}>
         <Main />
         <PostList posts={allPostsData} />
-        <ContactBar />
+        <Footer />
       </div>
     </>
   )
