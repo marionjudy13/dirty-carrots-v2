@@ -1,0 +1,13 @@
+.wrapper {
+	display: block;
+	width: 100%;
+}
+
+@media (min-width: 769px) {
+	.wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		height: 90vh;
+		align-items: center;
+	}
+}
