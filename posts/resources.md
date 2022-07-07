@@ -1,7 +1,7 @@
 ---
 title: 'Resources'
 date: '2022-03-13'
-id: resources.md
+id: resources
 ---
 
 # List of my most-used resources!

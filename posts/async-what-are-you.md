@@ -1,7 +1,7 @@
 ---
-title: 'The Clicky Button'
-date: '2022-05-01'
-id: clicky-button
+title: 'Can someone please explain Async/Await to me?'
+date: '2022-07-07'
+id: async-what-are-you
 ---
 
 We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.

@@ -9,6 +9,7 @@ export default function Footer() {
         <a
           href="mailto: marion@spiderwebs.dev"
           target="_blank"
+          rel="noreferrer"
           className={styles.link}
         >
           marion@spiderwebs.dev
