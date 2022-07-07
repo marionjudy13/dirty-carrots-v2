@@ -17,7 +17,7 @@ export default function Main() {
 
         <h2>
           Just a girl trying to keep a record of all the gosh dang things
-          she's&nbsp;learning.
+          she&apos;s&nbsp;learning.
         </h2>
       </div>
     </main>
