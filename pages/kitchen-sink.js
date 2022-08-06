@@ -863,7 +863,7 @@ export default function KitchenSink() {
             <code>iframe</code>:{' '}
             <iframe
               sandbox
-              srcdoc="<h1>Sample Document</h1><p>This
+              srcDoc="<h1>Sample Document</h1><p>This
 is a sample content.</p>"
             ></iframe>
           </p>
