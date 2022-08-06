@@ -7,6 +7,7 @@ import PostList from '../components/post-list'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData()
+
   return {
     props: {
       allPostsData,
@@ -14,7 +15,7 @@ export async function getStaticProps() {
   }
 }
 
-export default function Home({ allPostsData }) {
+export default function Home({ allPostsData, animals }) {
   return (
     <>
       <Head>
