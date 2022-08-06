@@ -116,8 +116,8 @@ export default function KitchenSink() {
               <samp>samp</samp> elements. Even more specifically, there is an
               element just for <var>variables</var>. Not to be mistaken with
               block quotes below, the quote element lets you denote something as{' '}
-              <q>quoted text</q>. Lastly don't forget the sub (H<sub>2</sub>O)
-              and sup (E = MC<sup>2</sup>) elements.
+              <q>quoted text</q>. Lastly don&apos;t forget the sub (H
+              <sub>2</sub>O) and sup (E = MC<sup>2</sup>) elements.
             </p>
             <section>
               <p>
@@ -203,14 +203,14 @@ export default function KitchenSink() {
             <code>data</code> can be used to specify{' '}
             <data value="2018-09-24T05:00-07:00">5 A.M.</data> that is
             machine-readable, but <code>time</code> is a better choice for
-            specifying <time datetime="2018-09-24T05:00-07:00">5 A.M.</time> in
+            specifying <time dateTime="2018-09-24T05:00-07:00">5 A.M.</time> in
             a machine-readable format.
           </p>
           <p>
             <code>del</code> can be{' '}
-            <del datetime="2017-10-11T01:25-07:00">varily</del> used to mark
+            <del dateTime="2017-10-11T01:25-07:00">varily</del> used to mark
             deletions. <code>ins</code> marks{' '}
-            <ins datetime="2007-12-19 00:00Z">insertions</ins>. <code>s</code>:
+            <ins dateTime="2007-12-19 00:00Z">insertions</ins>. <code>s</code>:
             similar to <code>del</code>, but used to mark content that is no
             longer relevant. <s>Windows XP version available.</s> <code>u</code>
             : a holdover with no real meaning that should be <u>removed</u>.{' '}
@@ -223,7 +223,7 @@ export default function KitchenSink() {
             <dfn lang="fr" title="French: indefinable quality">
               je ne sais quoi
             </dfn>{' '}
-            to one's prose.
+            to one&apos;s prose.
           </p>
           <p>
             <code>q</code>: The W3C page <cite>About W3C</cite> says the W3C’s
@@ -269,7 +269,7 @@ export default function KitchenSink() {
             <code>small</code> is used for side comments:{' '}
             <q>
               I wrote this whole document.{' '}
-              <small>[Editor's note: no he did not]</small>
+              <small>[Editor&apos;s note: no he did not]</small>
             </q>{' '}
             <code>wbr</code>: used to specify where a word may break and it is
             super
@@ -346,7 +346,7 @@ export default function KitchenSink() {
             </p>
             <footer>
               Steve Jobs,{' '}
-              <cite>Apple Worldwide Developers’ Conference, 1997</cite>
+              <cite>Apple Worldwide Developers&apos; Conference, 1997</cite>
             </footer>
           </blockquote>
           <p>
@@ -403,77 +403,77 @@ export default function KitchenSink() {
           <hr />
           <form>
             <p>
-              <label for="example-input-email">Email address</label>
+              <label htmlFor="example-input-email">Email address</label>
               <input type="email" id="example-input-email" />
             </p>
             <p>
-              <label for="example-input-number">Number</label>
+              <label htmlFor="example-input-number">Number</label>
               <input type="number" id="example-input-number" />
             </p>
             <p>
-              <label for="example-input-password">Password</label>
+              <label htmlFor="example-input-password">Password</label>
               <input type="password" id="example-input-password" />
             </p>
             <p>
-              <label for="example-input-search">Search</label>
+              <label htmlFor="example-input-search">Search</label>
               <input type="search" id="example-input-search" />
             </p>
             <p>
-              <label for="example-input-tel">Telephone number</label>
+              <label htmlFor="example-input-tel">Telephone number</label>
               <input type="tel" id="example-input-tel" />
             </p>
             <p>
-              <label for="example-input-text">Text</label>
+              <label htmlFor="example-input-text">Text</label>
               <input type="text" id="example-input-text" />
             </p>
             <p>
-              <label for="example-input-readonly">Read-only</label>
-              <input type="text" readonly value="Can't touch this!" />
+              <label htmlFor="example-input-readonly">Read-only</label>
+              <input type="text" readOnly value="Can't touch this!" />
             </p>
             <p>
-              <label for="example-input-disabled">Disabled</label>
+              <label htmlFor="example-input-disabled">Disabled</label>
               <input type="text" disabled value="Not available" />
             </p>
             <p>
-              <label for="example-input-url">URL</label>
+              <label htmlFor="example-input-url">URL</label>
               <input type="url" id="example-input-url" />
             </p>
             <p>
-              <label for="example-input-color">Color</label>
+              <label htmlFor="example-input-color">Color</label>
               <input type="color" id="example-input-color" />
             </p>
             <p>
-              <label for="example-input-date">Date</label>
+              <label htmlFor="example-input-date">Date</label>
               <input type="date" id="example-input-date" />
             </p>
             <p>
-              <label for="example-input-date-time">Date / Time</label>
-              <input type="datetime" id="example-input-date-time" />
+              <label htmlFor="example-input-date-time">Date / Time</label>
+              <input type="dateTime" id="example-input-date-time" />
             </p>
             <p>
-              <label for="example-input-date-time-local">
+              <label htmlFor="example-input-date-time-local">
                 Date / Time local
               </label>
-              <input type="datetime-local" id="example-input-date-time-local" />
+              <input type="dateTime-local" id="example-input-date-time-local" />
             </p>
             <p>
-              <label for="example-input-month">Month</label>
+              <label htmlFor="example-input-month">Month</label>
               <input type="month" id="example-input-month" />
             </p>
             <p>
-              <label for="example-input-week">Week</label>
+              <label htmlFor="example-input-week">Week</label>
               <input type="week" id="example-input-week" />
             </p>
             <p>
-              <label for="example-input-time">Time</label>
+              <label htmlFor="example-input-time">Time</label>
               <input type="time" id="example-input-time" />
             </p>
             <p>
-              <label for="example-input-file">File input</label>
+              <label htmlFor="example-input-file">File input</label>
               <input type="file" id="example-input-file" />
             </p>
             <p>
-              <label for="example-input-range">Range input</label>
+              <label htmlFor="example-input-range">Range input</label>
               <input
                 type="range"
                 id="example-input-range"
@@ -483,7 +483,7 @@ export default function KitchenSink() {
               />
             </p>
             <p>
-              <label for="example-select1">Select</label>
+              <label htmlFor="example-select1">Select</label>
               <select id="example-select1">
                 <option>1</option>
                 <option>2</option>
@@ -493,7 +493,7 @@ export default function KitchenSink() {
               </select>
             </p>
             <p>
-              <label for="example-select1a">Select with size</label>
+              <label htmlFor="example-select1a">Select with size</label>
               <select id="example-select1a" size="2">
                 <option>1</option>
                 <option>2</option>
@@ -503,7 +503,7 @@ export default function KitchenSink() {
               </select>
             </p>
             <p>
-              <label for="example-select2">Multiple select</label>
+              <label htmlFor="example-select2">Multiple select</label>
               <select multiple id="example-select2">
                 <option>1</option>
                 <option>2</option>
@@ -513,7 +513,7 @@ export default function KitchenSink() {
               </select>
             </p>
             <p>
-              <label for="example-optgroup">
+              <label htmlFor="example-optgroup">
                 Select with optgroup: Favorite Car
               </label>
               <select id="example-optgroup">
@@ -528,7 +528,7 @@ export default function KitchenSink() {
               </select>
             </p>
             <p>
-              <label for="example-optgroup2">
+              <label htmlFor="example-optgroup2">
                 Select with optgroup and size:Favorite Dish
               </label>
               <select id="example-optgroup2" size="2">
@@ -543,7 +543,7 @@ export default function KitchenSink() {
               </select>
             </p>
             <p>
-              <label for="example-optgroup3">
+              <label htmlFor="example-optgroup3">
                 Multiple select with optgroup: Public transport
               </label>
               <select id="example-optgroup3" multiple>
@@ -562,7 +562,7 @@ export default function KitchenSink() {
               </select>
             </p>
             <p>
-              <label for="example-textarea">Textarea</label>
+              <label htmlFor="example-textarea">Textarea</label>
               <textarea id="example-textarea" rows="3"></textarea>
             </p>
             <fieldset>
@@ -575,9 +575,9 @@ export default function KitchenSink() {
                   value="option1"
                   checked
                 />
-                <label for="option-radio1">
-                  Option one is this and that&mdash;be sure to include why it's
-                  great
+                <label htmlFor="option-radio1">
+                  Option one is this and that&mdash;be sure to include why
+                  it&apos;s great
                 </label>
               </div>
               <div>
@@ -606,9 +606,9 @@ export default function KitchenSink() {
             <fieldset>
               <legend>I am also legend</legend>
               <input type="checkbox" id="checkbox1" />
-              <label for="checkbox1">Check me out</label>
+              <label htmlFor="checkbox1">Check me out</label>
               <input type="checkbox" id="checkbox2" />
-              <label for="checkbox2">and/or check me out</label>
+              <label htmlFor="checkbox2">and/or check me out</label>
             </fieldset>
             <p>
               <button type="button" name="button">
@@ -917,7 +917,7 @@ is a sample content.</p>"
             <code>picture</code>:
             <picture>
               <source
-                srcset="https://www.fillmurray.com/240/300 2x,
+                srcSet="https://www.fillmurray.com/240/300 2x,
 https://www.fillmurray.com/120/150 1x"
               />
               <img src="https://www.fillmurray.com/120/150" alt="Bill Murray" />
