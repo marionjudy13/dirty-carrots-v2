@@ -58,6 +58,7 @@ export default function KitchenSink() {
               See the{' '}
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.w3.org/TR/html5/dom.html#heading-content"
               >
                 Heading Content spec.
@@ -141,6 +142,7 @@ export default function KitchenSink() {
               See the{' '}
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.w3.org/TR/html5/dom.html#sectioning-content"
               >
                 Sectioning Content spec.
@@ -289,6 +291,7 @@ export default function KitchenSink() {
               See the{' '}
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.w3.org/TR/html5/dom.html#phrasing-content"
               >
                 Phrasing Content spec.
@@ -818,6 +821,7 @@ export default function KitchenSink() {
               See the{' '}
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.w3.org/TR/html5/dom.html#palpable-content"
               >
                 Palpable Content spec.
@@ -950,6 +954,7 @@ https://www.fillmurray.com/120/150 1x"
               See the{' '}
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://www.w3.org/TR/html5/dom.html#embedded-content"
               >
                 Embedded Content spec.
