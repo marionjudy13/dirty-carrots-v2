@@ -8,7 +8,7 @@ export default function Layout({ children }) {
         <div className={styles.wrapper}>
           {children}
           <Link href="/">
-            <a>Back Home</a>
+            <a className={styles.backHome}>Back Home</a>
           </Link>
         </div>
       </div>
