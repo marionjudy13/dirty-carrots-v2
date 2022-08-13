@@ -74,3 +74,16 @@ You use custom HTML attributes created by you and supported by React to be passe
 const Welcome = (props) => <h1>Hello, {props.user}!</h1>
 ```
 It is standard to call this value props and when dealing with stateless functional components, you basically consider it as an argument to a function which returns JSX. You can access the value of the argument in the function body. With class components, you will see this is a little different.
+
+---
+
+## Terminology for Components
+
+1. __Stateless Functional Component:__
+Any function you write which accepts props and returns JSX
+
+2. __Stateless Component:__
+A class that extends React.Component, but does not use internal state
+
+3. __Stateful Component:__
+a class component that does maintain its own internal state. *You may see stateful components referred to simply as components or React components.*
