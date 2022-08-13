@@ -24,7 +24,8 @@ WHOOPS! Well, I certainly didn't think this through.  I can't just copy raw HTML
 
 ### Problem #2
 
-Another easy road bump!  I can't seamlessly copy the HTML into a page since JSX has some syntax differences!  I spent some time closing img and br tags, and updating some attributes to camel case, and excluding one little section I'll revisit later, I now have a decent kitchen page I can start styling! 
+Another easy road bump!  I can't seamlessly copy the HTML into a page since JSX has some syntax differences!  I spent some time closing img and br tags, and updating some attributes to camel case, and excluding one little section I'll revisit later, I now have a decent kitchen page I can start styling: [http://localhost:3000/kitchen-sink](http://localhost:3000/kitchen-sink)
+
 ![Second Attempt](https://res.cloudinary.com/marion/image/upload/bo_0px_solid_rgb:000/v1659893008/Dirty%20Carrots/kitchen-sink_scuadp.jpg)
 
 ## Next Up

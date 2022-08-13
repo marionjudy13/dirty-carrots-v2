@@ -13,337 +13,85 @@ export default function KitchenSink() {
       <header role="banner">
         <h1>HTML5 Kitchen Sink</h1>
         <small>
-          Jump to: <a href="#headings">Headings</a> |{' '}
-          <a href="#sections">Sections</a> | <a href="#phrasing">Phrasing</a> |{' '}
+          <a href="#headings">Headings</a> |{' '}
+          <a href="#paragraphs">Paragraphs</a> |{' '}
+          <a href="#phrasing">Phrasing</a> |{' '}
           <a href="#palpable">Palpable Content</a> |{' '}
           <a href="#embeds">Embeds</a> | <a href="#forms">Forms</a> |{' '}
           <a href="#tables">Tables</a>{' '}
         </small>{' '}
         <br />
         <br />
-        <p>
-          This section serves as the <code>header</code>.
-        </p>
       </header>
       <hr />
       <main>
         <section id="headings">
-          <h3>
-            <a href="#headings">#</a> Headings{' '}
-          </h3>
-          <p>
-            Elements <code>h1</code>, <code>h2</code>, <code>h3</code>,{' '}
-            <code>h4</code>,<code>h5</code>, <code>h6</code> make up the{' '}
-            <em>heading content</em> category.
-          </p>
+          <h3>Headings</h3>
           <hgroup>
-            <h1>h1 I am most important.</h1>
-            <h2>
-              h2 Back in my quaint <a href="#">garden</a>
-            </h2>
-            <h3>
-              h3 Jaunty <a href="#">zinnias</a> vie with flaunting phlox.
-            </h3>
-            <h4>
-              h4 Five or six big jet planes zoomed quickly by the new tower.
-            </h4>
-            <h5>
-              h5 Expect skilled signwriters to use many jazzy, quaint old
-              alphabets effectively.
-            </h5>
-            <h6>h6 Pack my box with five dozen liquor jugs.</h6>
+            <h1>I am an h1.</h1>
+            <h2>I am an h2.</h2>
+            <h3>I am an h3.</h3>
+            <h4>I am an h4</h4>
+            <h5>I am an h5.</h5>
+            <h6>I am an h6.</h6>
           </hgroup>
-          <footer>
-            <p>
-              See the{' '}
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.w3.org/TR/html5/dom.html#heading-content"
-              >
-                Heading Content spec.
-              </a>
-            </p>
-            <p>
-              Note: these two paragraphs are contained in a <code>footer</code>{' '}
-              element.
-            </p>
-          </footer>
         </section>
         <hr />
-        <section id="sections">
-          <header>
-            <h3>
-              <a href="#sections">#</a> Sections
-            </h3>
-            <p>
-              Elements <code>article</code>, <code>aside</code>,{' '}
-              <code>nav</code>,<code>section</code> make up the{' '}
-              <em>sectioning content</em> category.
-            </p>
-            <nav>
-              <p>
-                These links are contained in a <code>nav</code> element.
-              </p>
-              <ul>
-                <li>
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="#">Contact</a>
-                </li>
-              </ul>
-            </nav>
-          </header>
-          <article>
-            <p>
-              This paragraph is nested inside an <code>article</code> element.
-              It contains many different, sometimes useful,{' '}
-              <a href="http://www.w3schools.com/tags/">HTML5 elements</a>. Of
-              course there are classics like <em>emphasis</em>,{' '}
-              <strong>strong</strong>, and <small>small</small> but there are
-              many others as well. Hover the following text for abbreviation
-              element: <abbr title="abbreviation">abbr</abbr>. You can define{' '}
-              <del>deleted text</del> which often gets replaced with{' '}
-              <ins>inserted</ins> text.
-            </p>
-            <p>
-              You can also use <kbd>keyboard text</kbd>, which sometimes is
-              styled similarly to the <code>&lt;code&gt;</code> or{' '}
-              <samp>samp</samp> elements. Even more specifically, there is an
-              element just for <var>variables</var>. Not to be mistaken with
-              block quotes below, the quote element lets you denote something as{' '}
-              <q>quoted text</q>. Lastly don&apos;t forget the sub (H
-              <sub>2</sub>O) and sup (E = MC<sup>2</sup>) elements.
-            </p>
-            <section>
-              <p>
-                This paragraph is contained in a <code>section</code> element of
-                its parent <code>article</code> element.
-              </p>
-              <p>
-                ↓ The following paragraph has the <code>hidden</code> attribute
-                and should not be displayed. ↓
-              </p>
-              <p hidden>→ You should not see this paragraph. ←</p>
-              <p>↑ The previous paragraph should not be displayed. ↑</p>
-            </section>
-          </article>
-          <aside>
-            <p>
-              This is contained in an <code>aside</code> element.
-            </p>
-          </aside>
-          <footer>
-            <p>
-              See the{' '}
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.w3.org/TR/html5/dom.html#sectioning-content"
-              >
-                Sectioning Content spec.
-              </a>
-            </p>
-          </footer>
+        <section id="paragraphs">
+          <h3>Paragraph Blocks</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a
+            ipsum elit. In quis volutpat dui, in consequat tellus. Praesent
+            molestie vehicula neque, dignissim gravida erat porta ornare. Etiam
+            facilisis odio vulputate dui pharetra, nec faucibus erat finibus.
+            Duis eget nibh nec lacus ultrices vestibulum sit amet sit amet
+            dolor. Pellentesque lacinia dolor ut dui lacinia maximus. Donec id
+            eleifend purus. Maecenas dictum nisi et tincidunt ornare. Fusce
+            volutpat pretium est.
+          </p>
+          <p>
+            Ut vel pulvinar augue. Vestibulum gravida vitae ligula ut luctus.
+            Nulla dui purus, accumsan sollicitudin tellus in, pretium eleifend
+            elit. Pellentesque varius enim in sem fringilla, a tincidunt orci
+            laoreet. Donec in faucibus purus, nec cursus augue. Proin magna
+            lectus, efficitur ut lobortis at, iaculis sed ligula. Sed pulvinar
+            vulputate turpis, sed viverra magna vestibulum eleifend. Phasellus
+            ac sodales diam. Nam a commodo magna. Fusce condimentum risus
+            tellus. Nullam luctus quam neque, sit amet eleifend lectus fermentum
+            non.
+          </p>
+          <uL>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Donec ac enim vel sapien blandit semper sed ut lorem.</li>
+            <li>
+              Integer tempus libero ut est commodo, vitae tincidunt augue
+              eleifend.
+            </li>
+            <li>Fusce non mi in ex rutrum sagittis.</li>
+            <li>
+              Maecenas ut mauris pharetra, ultrices arcu ac, volutpat sem.
+            </li>
+          </uL>
+          <p>
+            Aliquam sit amet enim at massa accumsan convallis eget ut augue.
+            Aliquam euismod massa ut felis rutrum interdum. Duis egestas nisi et
+            pretium lacinia. Nunc id massa ut elit pretium posuere ac imperdiet
+            metus. Quisque id justo blandit, mattis tortor feugiat, posuere
+            quam. Duis eget mi non diam semper mollis. Curabitur in placerat
+            dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            Etiam in orci est.
+          </p>
         </section>
         <hr />
         <section id="phrasing">
-          <header>
-            <h3>
-              <a href="#phrasing">#</a> Phrasing
-            </h3>
-            <p>
-              Elements <code>abbr</code>, <code>b</code>, <code>bdi</code>,
-              <code>bdo</code>, <code>br</code>, <code>cite</code>,{' '}
-              <code>code</code>,<code>data</code>, <code>del</code>,{' '}
-              <code>dfn</code>, <code>em</code>,<code>i</code>, <code>ins</code>
-              , <code>kbd</code>, <code>mark</code>,<code>meter</code>,{' '}
-              <code>progress</code>, <code>q</code>, <code>s</code>,
-              <code>samp</code>, <code>small</code>, <code>span</code>,{' '}
-              <code>strong</code>,<code>sub</code>, <code>sup</code>,{' '}
-              <code>time</code>, <code>u</code>,<code>var</code>,{' '}
-              <code>wbr</code>, and others make up the <em>phrasing content</em>{' '}
-              category.
-            </p>
-          </header>
-          <p>
-            <code>abbr</code>: Some vehicles meet the
-            <abbr title="Super Ultra Low Emission Vehicle">SULEV</abbr>{' '}
-            standard.
-            <br />
-            <code>br</code> was used to make this sentence start on a new line.
-          </p>
-          <p>
-            <code>bdi</code>: Some languages read right to left,{' '}
-            <bdi lang="ar">مرحبا</bdi>.<code>bdo</code>:{' '}
-            <bdo dir="rtl">The normal direction has been overridden.</bdo>
-          </p>
-          <p>
-            <code>em</code> is used for <em>emphasis</em> and usually renders as
-            italics, contrast that with <code>i</code> which is used for
-            alternate voice or to offset from the normal (such as a phrase from
-            a different language or taxonomic designation): <i>E. coli</i> can
-            be bad. <code>strong</code> is used for{' '}
-            <strong>importance or urgency</strong> and usually renders as bold,
-            contrast that with <code>b</code> which is used to{' '}
-            <b>draw attention</b> without the semantic meaning of importance.
-          </p>
-          <p>
-            <code>cite</code>: In the words of <cite>Charles Bukowski</cite> —{' '}
-            <q>
-              An intellectual says a simple thing in a hard way. An artist says
-              a hard thing in a simple way.
-            </q>
-          </p>
-          <p>
-            <code>data</code> can be used to specify{' '}
-            <data value="2018-09-24T05:00-07:00">5 A.M.</data> that is
-            machine-readable, but <code>time</code> is a better choice for
-            specifying <time dateTime="2018-09-24T05:00-07:00">5 A.M.</time> in
-            a machine-readable format.
-          </p>
-          <p>
-            <code>del</code> can be{' '}
-            <del dateTime="2017-10-11T01:25-07:00">varily</del> used to mark
-            deletions. <code>ins</code> marks{' '}
-            <ins dateTime="2007-12-19 00:00Z">insertions</ins>. <code>s</code>:
-            similar to <code>del</code>, but used to mark content that is no
-            longer relevant. <s>Windows XP version available.</s> <code>u</code>
-            : a holdover with no real meaning that should be <u>removed</u>.{' '}
-            <code>mark</code>: the HTML equivalent of the{' '}
-            <mark>yellow highlighter</mark>. <code>span</code>: a
-            <span>generic element</span> with no meaning by itself.
-          </p>
-          <p>
-            <code>dfn</code>: Foreign phrases add a certain{' '}
-            <dfn lang="fr" title="French: indefinable quality">
-              je ne sais quoi
-            </dfn>{' '}
-            to one&apos;s prose.
-          </p>
-          <p>
-            <code>q</code>: The W3C page <cite>About W3C</cite> says the W3C’s
-            mission is{' '}
-            <q cite="https://www.w3.org/Consortium/">
-              To lead the World Wide Web to its full potential by developing
-              protocols and guidelines that ensure long-term growth for the Web
-            </q>
-            .
-          </p>
-          <p>
-            <code>kbd</code> and <code>samp</code>: I did this:
-          </p>
-          <pre>
-            <samp>
-              c:\&gt;<kbd>format c: /yes</kbd>
-            </samp>
-          </pre>
-          <p>
-            Is that bad? Press{' '}
-            <kbd>
-              <kbd>Ctrl</kbd>
-            </kbd>
-            +
-            <kbd>
-              <kbd>F5</kbd>
-            </kbd>{' '}
-            for a hard reload.
-          </p>
-          <p>
-            <code>var</code>: To log in, type{' '}
-            <kbd>
-              ssh <var>user</var>@example.com
-            </kbd>
-            , where <var>user</var> is your user ID.
-          </p>
-          {/* <p><code>meter</code> and <code>progress</code>: Storage space usage:
-        <meter value='6' max='8>6' blocks used (out of 8 total)</meter> Progress:
-        <progress value="37" max=100>37%</progress></p> */}
-          <p>
-            <code>sub</code> is used for subscripts: H<sub>2</sub>O.{' '}
-            <code>sup</code> is used for superscripts: E = MC<sup>2</sup>.{' '}
-            <code>small</code> is used for side comments:{' '}
-            <q>
-              I wrote this whole document.{' '}
-              <small>[Editor&apos;s note: no he did not]</small>
-            </q>{' '}
-            <code>wbr</code>: used to specify where a word may break and it is
-            super
-            <wbr />
-            cali
-            <wbr />
-            fragil
-            <wbr />
-            istic
-            <wbr />
-            expiali
-            <wbr />
-            do
-            <wbr />
-            cious.
-          </p>
-          <footer>
-            <p>
-              See the{' '}
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.w3.org/TR/html5/dom.html#phrasing-content"
-              >
-                Phrasing Content spec.
-              </a>
-            </p>
-          </footer>
-        </section>
-        <hr />
-        <section id="palpable">
-          <header>
-            <h3>
-              <a href="#palpable">#</a> Palpable Content
-            </h3>
-            <p>
-              Elements <code>a</code>, <code>address</code>,{' '}
-              <code>blockquote</code>,<code>button</code>, <code>details</code>,{' '}
-              <code>dl</code>, <code>fieldset</code>,<code>figure</code>,{' '}
-              <code>form</code>, <code>input</code>, <code>label</code>,
-              <code>map</code>, <code>ol</code>, <code>output</code>,{' '}
-              <code>pre</code>,<code>select</code>, <code>table</code>,{' '}
-              <code>textarea</code>,<code>ul</code>, and others make up the{' '}
-              <em>palpable content</em> category.
-            </p>
-          </header>
-          <p>
-            <code>a</code>: <a href="http://example.com">Example</a>.
-          </p>
-          <p>
-            <code>address</code>:
-          </p>
-          <address>
-            1 Infinite Loop
-            <br />
-            Cupertino, CA 95014
-            <br />
-            United States
-          </address>
-          <p>
-            <code>blockquote</code>:
-          </p>
+          <h3>blockquote</h3>
+
           <blockquote>
-            <p>I quickly explained that many big jobs involve few hazards</p>
-          </blockquote>
-          <blockquote>
-            <p>
-              This is a mult-line blockquote with a cite reference. People think
-              focus means saying yes to the thing you’ve got to focus on. But
-              that’s not what it means at all. It means saying no to the hundred
-              other good ideas that there are. You have to pick carefully. I’m
-              actually as proud of the things we haven’t done as the things I
-              have done. Innovation is saying no to 1,000 things.
-            </p>
+            Healthy soil is critical to successful agriculture and is vital to
+            produce the food and fiber we use every day. When soil issues arise,
+            from soil organism habitat degradation to erosion to nutrient
+            depletion, they can have long-term and costly impacts to soil health
+            and production goals.
             <footer>
               Steve Jobs,{' '}
               <cite>Apple Worldwide Developers&apos; Conference, 1997</cite>
@@ -684,20 +432,20 @@ export default function KitchenSink() {
           <p>
             <code>pre</code>:
           </p>
-          <pre>
+          {/* <pre>
             display: block; padding: 7px; background-color: #F5F5F5; border: 1px
             solid #E1E1E8; border-radius: 3px; white-space: pre-wrap;
             word-break: break-all; font-family: Menlo, Monaco; line-height:
             160%;
-          </pre>
-          <pre>
+          </pre> */}
+          {/* <pre>
             <samp>
               You are in an open field west of a big white house with a boarded
               front door. There is a small mailbox here.
             </samp>{' '}
             <kbd>open mailbox</kbd>
             <samp>Opening the mailbox reveals: A leaflet.</samp>
-          </pre>
+          </pre> */}
           <br />
           <br />
           <h4 id="tables">
