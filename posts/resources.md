@@ -15,3 +15,7 @@ id: resources
 
 ### ICONS!!!
 *<a href="https://icons.meronex.com/">Meronex Icons</a>
+
+### Markdown
+
+https://www.markdownguide.org/basic-syntax/
