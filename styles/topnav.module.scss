@@ -1,0 +1,15 @@
+.wrapper {
+    background: var(--white);
+    padding: 10px 100px;
+    border-bottom: 2px solid var(--green);
+    display: block;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+
+    img {
+        width: 25px;
+        transform: rotate(-45deg);
+    }
+}
