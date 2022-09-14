@@ -6,13 +6,28 @@ import styles from '../styles/socials.module.scss'
 export default function Socials() {
   return (
     <div className={styles.socials}>
-      <a href="https://github.com/marionrose13" alt="Github Profile">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://github.com/marionjudy13"
+        alt="Github Profile"
+      >
         <AiFillGithub />
       </a>
-      <a href="https://www.linkedin.com/in/marionerose/" alt="LinkedIn Profile">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.linkedin.com/in/marionerose/"
+        alt="LinkedIn Profile"
+      >
         <EnLinkedinWithCircle />
       </a>
-      <a href="https://twitter.com/DirtyCarrots13" alt="Twitter Profile">
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://twitter.com/MsMarion13"
+        alt="Twitter Profile"
+      >
         <AiFillTwitterCircle />
       </a>
     </div>
