@@ -1,15 +1,38 @@
 .wrapper {
     background: var(--white);
-    padding: 10px 100px;
     border-bottom: 2px solid var(--green);
     display: block;
     position: fixed;
+    padding: 10px 40px;
     width: 100%;
     top: 0;
     z-index: 100;
+    box-shadow: 0px 1px 5px rgb(0 0 0 / 30%);
+    
+
+    a {
+        text-decoration: none;
+        display: flex;
+        cursor: pointer;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
 
     img {
-        width: 25px;
-        transform: rotate(-45deg);
+        width: 20px;
+        transform: rotate(-30deg);
+        margin-left: 5px;
+    }
+
+    span {
+        font-size: 20px;
+        font-family: 'Abhaya Libre', serif;
+        font-weight: bold;
+        z-index: 1;
+        margin-left: 10px;
+        margin-top: 7px;
     }
 }
