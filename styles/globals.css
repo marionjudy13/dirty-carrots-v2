@@ -6,6 +6,7 @@ body {
   display: block;
   position: relative;
   width: 100%;
+  height: auto;
 }
 
 h1,
@@ -33,7 +34,8 @@ a {
 :root {
   --white: #FFF;
   --black: #000;
-  --gray: #A9A9A9;
+  --gray: #ccc;
+  --darkGray: #63666A;
   --lightGray: #EDEDED;
   --green: #89C541;
   --orange: #F78F1E;

@@ -1,5 +1,5 @@
 ---
-title: 'React States'
+title: 'React Lifecycle Methods'
 date: '2022-08-16'
 id: react-lifecycle-methods
 ---
@@ -98,5 +98,4 @@ class Controller extends React.Component {
   }
 }
 ```
----
 
