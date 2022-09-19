@@ -6,7 +6,7 @@ import WorkInProgress from './work-in-progress'
 export default function Layout({ children }) {
   return (
     <>
-      <WorkInProgress />
+      <WorkInProgress className="rightSide" />
       <Topnav />
       <div className={styles.container}>
         <div className={styles.wrapper}>
