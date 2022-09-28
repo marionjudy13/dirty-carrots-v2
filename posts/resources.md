@@ -15,7 +15,7 @@ id: resources
 
 ### ICONS!!!
 *<a href="https://icons.meronex.com/">Meronex Icons</a>
-<a href="https://www.favicon.cc/>8-bit Favicon Maker Tool</a>
+<a href="https://www.favicon.cc/">8-bit Favicon Maker Tool</a>
 
 ### Markdown
 
