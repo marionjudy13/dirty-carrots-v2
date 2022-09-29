@@ -14,7 +14,8 @@ id: resources
 *<a href="https://codepen.io/jh3y/pen/qBdzbGb">CSS Animation Delays</a>
 
 ### ICONS!!!
-*<a href="https://icons.meronex.com/">Meronex Icons</a>
+<a href="https://emojipedia.org/">Emojipedia!</a>
+<a href="https://icons.meronex.com/">Meronex Icons</a>
 <a href="https://www.favicon.cc/">8-bit Favicon Maker Tool</a>
 
 ### Markdown
