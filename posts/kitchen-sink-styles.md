@@ -6,6 +6,13 @@ id: kitchen-sink-styles
 
 # Kitchen Sink CSS Styles
 
+## Update:
+This was a disaster. 😂 It was completely overwhelming trying to work this way.  It's been way more efficient for me to style as I go versus have everything preformatted.  Maybe approaching styles in a 'kitchen sink' style would be reasonable if it was a client site that I wasn't so hands on with, but for now it's MUCH faster to just style as I go!
+
+I DID learn a lot about syntax differences between HTML and JSX.
+
+---
+
 ## The Goal:
 
 Today I'm going to spend a little bit of time setting up my CSS styles, hopefully covering everything I would use in a typical blog post so that I don't have to worry about styling when I'm working on other coding challenges and topics. 
