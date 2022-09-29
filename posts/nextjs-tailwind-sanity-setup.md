@@ -5,16 +5,22 @@ id: nextjs-tailwind-sanity-setup
 ---
 
 # My Setup Process
+
 I'm in the process of creating a boilerplate I can reuse, update, and grow with. For the sake of saving time in the future (and maybe to help someone else out), here's how I get setup:
 
+---
+
 ## Install Next.js:
+
 1. Create the project and switch terminal to it's folder:
     ```
     npx create-next-app your-project-name
     cd your-project-name
     ```
+---
 
 ## Install Tailwind:
+
 2. In your project folder:
     ```
     npm install -D tailwindcss postcss autoprefixer
@@ -47,8 +53,10 @@ I'm in the process of creating a boilerplate I can reuse, update, and grow with.
     ```
     npm run dev
     ```
+---
 
 ## Add Sanity:
+
 6. In main project folder run:
     ```
     npm i next-sanity
@@ -62,6 +70,8 @@ I'm in the process of creating a boilerplate I can reuse, update, and grow with.
     - Select project template: Clean project with no predefined schemas (again, your preference!  There's options!)
 8. Cd into your your-project-name/studio folder
 9. sanity start - to run Sanity Studio at http://localhost:3333/
+
+---
 
 ## Get Your Data Setup
 10. Create your first document type.
@@ -95,15 +105,15 @@ I'm in the process of creating a boilerplate I can reuse, update, and grow with.
     - Once you save, your schema type should refresh in your local studio!
 
 12. Make an .env file
-# Fill this out tomorrow
----
----
----
----
----
+    - Create .env file in root directory
+    - Add the following to the file and save:
+    ```
+    SANITY_ID={projectID}
+    ```
+    - Replace the project ID with yours (you can find it in your sanity.jason file)
 
-
-## Connecting Content to Next.js
+---
+## Connect your Data to Next.js
 
 13. In your-project-name folder, run 
     ```
@@ -151,9 +161,18 @@ I'm in the process of creating a boilerplate I can reuse, update, and grow with.
 
 ---
 
-Sanity Gotchas:
+## Then build, build, build!!
+This will probably be a bit of a living document that I will update as I go!
+
+__Sanity Gotchas:__
 - You will need to kill and restart the server to see the effect of certain changes. These include changes to sanity.json, addition or removal of plugins, and anything that involves .env files.
 
-Sanity Helpful Links:
+__Sanity Helpful Links:__
 - https://www.sanity.io/docs/getting-started-with-sanity-cli
 - https://www.sanity.io/guides/sanity-nextjs-tailwindcss
+
+__Next.JS Stuff__
+- https://nextjs.org/docs/basic-features/environment-variables#loading-environment-variables
+
+__Tailwind__
+- https://tailwindcss.com/docs/installation
