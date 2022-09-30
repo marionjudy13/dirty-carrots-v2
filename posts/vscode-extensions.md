@@ -1,6 +1,6 @@
 ---
 title: 'VS Code Extensions'
-date: '2022-9-07'
+date: '2022-09-07'
 id: vscode-extensions
 ---
 
