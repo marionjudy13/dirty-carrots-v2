@@ -10,6 +10,8 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600;800&family=Roboto+Condensed:wght@400;700&display=swap"
           rel="stylesheet"
         />
+        <link rel="icon" href="/carrot-ico.svg" />
+
       </Head>
       <body>
         <Main />

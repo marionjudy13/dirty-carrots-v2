@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/topnav.module.scss'
 import Link from 'next/link'
+import Socials from './socials'
 
 function Topnav() {
   return (
@@ -13,6 +14,7 @@ function Topnav() {
           </a>
         </Link>
       </nav>
+      <Socials />
     </div>
   )
 }

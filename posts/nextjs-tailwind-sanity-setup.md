@@ -68,15 +68,26 @@ I'm in the process of creating a boilerplate I can reuse, update, and grow with.
     - Use the default dataset configuration? Yes
     - Project output path: your-project-name/studio(I always update this to 'studio', otherwise it will default to your-project-name/your-project-name and I find that confusing in the terminal)
     - Select project template: Clean project with no predefined schemas (again, your preference!  There's options!)
-8. Cd into your your-project-name/studio folder
-9. sanity start - to run Sanity Studio at http://localhost:3333/
+8. Cd into your sanity studio folder:
+    ```
+    cd sanity-studio-folder
+    ```
+9. Start the Sanity project and access at http://localhost:3333/
+    ```
+    sanity start
+    ```
 
 ---
 
 ## Get Your Data Setup
 10. Create your first document type.
+        
     a. Create new file in studio/schemas folder (ex: plants.js)
-    b. Open your new file and add your schema data! Ex:
+    
+    b. Open your new file and add your schema data! 
+        
+    Example:
+
     ```
     export default {
         name: 'plants',
@@ -119,10 +130,23 @@ I'm in the process of creating a boilerplate I can reuse, update, and grow with.
     ```
     npm i next-sanity
     ```
-14. Import the `createClient` function from `next-sanity` in the `pages/index.js` file:
+
+14. Create a root folder called 'utils' and in that save a new file 'client.js'. Save the following in that file:
+
     ```
-    import Head from 'next/head'
     import { createClient } from 'next-sanity'
+
+    export const client = createClient({
+        projectId: process.env.SANITY_ID,
+        dataset: 'production',
+        apiVersion: '2022-03-25',
+        useCdn: false,
+    })
+    ```
+
+14. Import the `createClient` function from `next-sanity` in the `pages/index.js` file, or any parent component file you want to pull your sanity data in:
+    ```
+    import { client } from '../utils/client'
 
     export default function Home({ plants }) {
     return (
@@ -141,25 +165,46 @@ I'm in the process of creating a boilerplate I can reuse, update, and grow with.
     )
     }
 
-    const client = createClient({
-    projectId: process.env.SANITY_ID,
-    dataset: 'production',
-    apiVersion: '2022-03-25',
-    useCdn: false,
-    })
-
     export async function getStaticProps() {
-    const plants = await client.fetch(`*[_type == "plants"]`)
+        const plants = await client.fetch(`*[_type == "plants"] {
+        ...,
+        "slug": slug.current,
+        }`)
 
-    return {
-        props: {
-        plants,
-        },
+        return {
+            props: {
+                plants,
+            },
+        }
     }
-    }
+
     ```
 
 ---
+15. Add a `_document.js` page under your pages directory for your global Head info!   
+
+    ```
+    import { Html, Head, Main, NextScript } from 'next/document'
+
+    export default function Document() {
+    return (
+        <Html lang="en">
+        <Head>
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+            <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,100&display=swap"
+            rel="stylesheet"
+            />
+        </Head>
+        <body>
+            <Main />
+            <NextScript />
+        </body>
+        </Html>
+    )
+    }
+    ```
 
 ## Then build, build, build!!
 This will probably be a bit of a living document that I will update as I go!
