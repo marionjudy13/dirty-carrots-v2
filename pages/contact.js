@@ -8,7 +8,7 @@ export default function Contact() {
         <Topnav />
         <div className={styles.contact}>
                 <h1>Contact Me!</h1>
-                <h2>I'd love to hear from you!</h2>
+                <h2>I&apos;d love to hear from you!</h2>
                 <Form />
         </div>
     </div>
