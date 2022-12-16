@@ -35,4 +35,29 @@
     margin-left: 10px;
     margin-top: 7px;
   }
+  .topnavSocialsWrapper {
+    display: flex;
+    align-items: center;
+
+    .link {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  .wrapper {
+    .topnavSocialsWrapper {
+      .link {
+        display: block;
+        margin-right: 45px;
+        margin-top: 2px;
+        transition: color 0.2s ease-in-out;
+
+        &:hover {
+          color: var(--orange);
+        }
+      }
+    }
+  }
 }

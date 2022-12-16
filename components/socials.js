@@ -1,11 +1,22 @@
-import AiFillGithub from '@meronex/icons/ai/AiFillGithub'
-import AiFillTwitterCircle from '@meronex/icons/ai/AiFillTwitterCircle'
-import EnLinkedinWithCircle from '@meronex/icons/en/EnLinkedinWithCircle'
-import styles from '../styles/socials.module.scss'
+import AiFillGithub from "@meronex/icons/ai/AiFillGithub";
+import EnInstagramWithCircle from "@meronex/icons/en/EnInstagramWithCircle";
+import EnLinkedinWithCircle from "@meronex/icons/en/EnLinkedinWithCircle";
+import EnMailWithCircle from "@meronex/icons/en/EnMailWithCircle";
+import Link from "next/link";
+import styles from "../styles/socials.module.scss";
 
 export default function Socials() {
   return (
     <div className={styles.socials}>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.dirtycarrots.dev/contact"
+        alt="Contact Me"
+        className={styles.email}
+      >
+        <EnMailWithCircle />
+      </a>
       <a
         target="_blank"
         rel="noopener noreferrer"
@@ -25,11 +36,11 @@ export default function Socials() {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://twitter.com/MsMarion13"
-        alt="Twitter Profile"
+        href="https://www.instagram.com/mary_vontschudi/"
+        alt="Instagram Profile"
       >
-        <AiFillTwitterCircle />
+        <EnInstagramWithCircle />
       </a>
     </div>
-  )
+  );
 }

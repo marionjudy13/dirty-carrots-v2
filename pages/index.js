@@ -1,19 +1,19 @@
-import Head from 'next/head'
-import Footer from '../components/footer'
-import Main from '../components/main'
-import styles from '../styles/home.module.scss'
-import { getSortedPostsData } from '../lib/posts'
-import PostList from '../components/post-list'
-import WorkInProgress from '../components/work-in-progress'
+import Head from "next/head";
+import Footer from "../components/footer";
+import Main from "../components/main";
+import styles from "../styles/home.module.scss";
+import { getSortedPostsData } from "../lib/posts";
+import PostList from "../components/post-list";
+// import WorkInProgress from '../components/work-in-progress'
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
+  const allPostsData = getSortedPostsData();
 
   return {
     props: {
       allPostsData,
     },
-  }
+  };
 }
 
 export default function Home({ allPostsData }) {
@@ -25,11 +25,11 @@ export default function Home({ allPostsData }) {
       </Head>
 
       <div className={styles.wrapper}>
-        <WorkInProgress />
+        {/* <WorkInProgress /> */}
         <Main />
         <PostList posts={allPostsData} />
         <Footer />
       </div>
     </>
-  )
+  );
 }

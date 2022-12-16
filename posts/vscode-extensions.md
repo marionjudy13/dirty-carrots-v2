@@ -1,6 +1,6 @@
 ---
-title: 'VS Code Extensions'
-date: '2022-09-07'
+title: "VS Code Extensions"
+date: "2022-09-07"
 id: vscode-extensions
 ---
 
@@ -12,4 +12,4 @@ id: vscode-extensions
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [PostCSS Language Support](https://marketplace.visualstudio.com/items?itemName=csstools.postcss)
-- 
+- [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag)
