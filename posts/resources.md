@@ -25,6 +25,7 @@ I keep coming back to these pages again and again, so to save myself a step goog
 - [Meronex Icons: Open Source React Icons](https://icons.meronex.com/)
 - [8-bit Favicon Maker Tool](https://www.favicon.cc/)
 - [React Social Icons](https://www.npmjs.com/package/react-social-icons)
+- [Heroicons](https://heroicons.com/)
 
 ### Markdown
 
@@ -40,3 +41,12 @@ I keep coming back to these pages again and again, so to save myself a step goog
 
 - [Syntax: With Wes Bos & Scott Tolinski](https://syntax.fm/)
 - [Code Newbie](https://www.codenewbie.org/)
+
+### React Modules
+
+- [React Simple Typewriter](https://www.npmjs.com/package/react-simple-typewriter)
+
+### React Forms
+
+- [React Hook Form](https://react-hook-form.com/)
+- [Web 3 Forms - LOVE this one](https://web3forms.com/)
